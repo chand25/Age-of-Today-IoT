@@ -11,6 +11,33 @@ The motivation behind this project was to showcase the technology of tomorrow an
 ![Screenshot of SplashPage](./splash_page_preview.png "Picture of SplashPage")
 
 
+## Mac OX Instructions for using Cylon.JS
+open up terminal
+cd into file folder
+
+npm install cylon cylon-mip
+npm install cylon cylon-ble
+
+Note: You may need to install cylon-ble using the -g option, and then run 
+each commands under sudo like this:
+
+sudo cylon-ble-scan
+
+You should something like below for the results
+
+Peripheral discovered!
+  Name: 2B-785E
+  UUID: cc360e85785e
+  rssi: -80
+
+
+To run spashpage locally,
+
+open up terminal
+cd into splashpage folder
+then enter into terminal:
+  python -m SimpleHTTPServer
+
 
 ## Code Example
 ```` ``` ````Cylon.JS/Javascript```` ``` ````
