@@ -1,0 +1,39 @@
+{
+  "name": "Cylon - MIP_Controller",
+  "description": "Running Cylon.js inside a Chrome app",
+
+  "manifest_version": 2,
+
+  "version": "0.1.0",
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+
+  "content_scripts": [
+  {
+    "js": ["browser_solo.js"]
+  }
+],
+
+  "permissions": [
+    "serial",
+    "unlimitedStorage",
+    "http://*/",
+    "https://*/",
+    "*://*/",
+    "tts",
+    "notifications",
+    "storage",
+    "videoCapture",
+    "audioCapture"
+  ],
+
+  "bluetooth": {
+  "uuid": ["4bae4737780042b0a665dbb47c6185e7"],
+  "low_energy": true
+ }
+}
+

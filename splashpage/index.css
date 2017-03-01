@@ -1,0 +1,63 @@
+body {
+        height: 100%;
+        width: 100%;
+        background-color: #000;
+        color: #fff;
+        margin: 0px;
+        overflow: hidden;
+        font-size:2 em;
+        font-family: 'Raleway Dots', Times, serif;
+        text-align:center;
+        font-weight: bold;
+        text-align:center;
+      }
+
+      #video{
+         display: none;
+      }
+
+      h1{
+         font-family:Monospace;
+      }
+
+
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  {
+    .bodylist{
+         margin-bottom: 100px;
+         display:flex;
+         flex-direction: column;
+      }
+}
+      .bodylist{
+         margin-bottom: 100px;
+         display:flex;
+      }
+
+     .logome{
+     font-family: 'Codystar', cursive;
+     }
+
+      .bodyitems{
+        width: 200px;
+        margin-left: 5%;
+        text-align: center;
+        list-style: none;
+      }
+
+      #info {
+        color:#fff;
+        position: absolute;
+        top: 5px; width: 100%;
+        z-index:100;
+      }
+
+      #title{
+        position: absolute;
+        top: 5px; width: 100%;
+        z-index:100;
+      }
+
+

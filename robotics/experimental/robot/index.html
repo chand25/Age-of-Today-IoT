@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dev-licious Era</title>
+
+<style type="text/css" media="screen">
+
+body{
+ background-image: url('futurecity6.png')
+  margin: 0 auto;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
+.soundBox{
+  margin-top: 80px;
+}
+
+button{
+  padding: 10px 5px;
+  color: white;
+  background-color: blue;
+}
+
+
+</style>
+
+</head>
+<body>
+
+<audio preload="auto" id="solo">
+  <source src="robotomusic.wav">
+  <source src="roboto.mp3">
+</audio>
+
+<audio preload="auto" id="duet">
+  <source src="Technologic.wav">
+  <source src="DP_Technologic.mp3">
+</audio>
+
+
+<div class="soundBox">
+     <button onclick="document.getElementById('solo').play()">SOLO PLAY</button>
+     <button onclick="document.getElementById('solo').pause()">pause</button>
+</div>
+
+
+<div id="log">
+</div>
+
+<div class="soundBox">
+ <button onclick="document.getElementById('duet').play()">DUET PLAY</button>
+ <button onclick="document.getElementById('duet').pause()">Pause</button>
+</div>
+
+
+<script src="browser_solo.js"></script>
+</body>
+
+<script>
+  //src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer
+
+</script>
+</html>
