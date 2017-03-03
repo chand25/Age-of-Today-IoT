@@ -124,8 +124,10 @@
           }
         }
       }
+
+
       function onDocumentMouseMove(event) {
-        mouseX = ( event.clientX - windowHalfX );
+        mouseX = ( event.clientX - windowHalfX ) * 0.3;
         mouseY = ( event.clientY - windowHalfY ) * 0.5;
       }
       //

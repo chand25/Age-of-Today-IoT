@@ -38,6 +38,8 @@ cd into splashpage folder
 then enter into terminal:
   python -m SimpleHTTPServer
 
+  ## Instructions for using Three.js
+
 
 ## Code Example
 ```` ``` ````Cylon.JS/Javascript```` ``` ````
@@ -112,7 +114,7 @@ For this project, I have used the following technologies:
 * three.js github Repo
 * Leapmotion Developer Documentation
 
-These resources really help. 
+These resources really helped. 
 
 ##Authors
 Shantel Moore
