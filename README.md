@@ -29,7 +29,7 @@ Peripheral discovered!
   Name: 2B-785E
   UUID: cc360e85785e
   rssi: -80
- 
+
  ### Instructions for running Three.js
 
 To run spashpage locally,
