@@ -80,7 +80,7 @@ After that, the sky was the limit.
 
 ## Technologies
 
-For this project, I have used the following technologies:
+For this project, I used the following technologies:
 
 * Cylon.JS
 * Vanilla Javascript
