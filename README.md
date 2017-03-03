@@ -10,8 +10,8 @@ The motivation behind this project was to showcase the technology of tomorrow an
 
 ![Screenshot of SplashPage](./splash_page_preview.png "Picture of SplashPage")
 
-
-## Mac OX Instructions for using Cylon.JS
+## Setup:
+### Mac OX Instructions for using Cylon.JS
 open up terminal
 cd into file folder
 
@@ -29,7 +29,8 @@ Peripheral discovered!
   Name: 2B-785E
   UUID: cc360e85785e
   rssi: -80
-
+ 
+ ### Instructions for running Three.js
 
 To run spashpage locally,
 
@@ -38,11 +39,10 @@ cd into splashpage folder
 then enter into terminal:
   python -m SimpleHTTPServer
 
-  ## Instructions for using Three.js
 
 
 ## Code Example
-```` ``` ````Cylon.JS/Javascript```` ``` ````
+```Cylon.JS/Javascript
   birth: function() {
       this.age += 1;
 
@@ -62,7 +62,7 @@ then enter into terminal:
         console.log(`You are ${this.age}.`);
         }
      }
-  ```` ``` ````
+  ```
 
 ## Build Strategy
 Originally I wanted to experiment with Robotics. When I heard about Javascript Robotics, I was totally invested in trying it out.
