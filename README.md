@@ -13,10 +13,10 @@ The motivation behind this project was to showcase the technology of tomorrow an
 ## Setup:
 ### Mac OX Instructions for using Cylon.JS
 open up terminal
-cd into file folder
+    cd into file folder
 
-npm install cylon cylon-mip
-npm install cylon cylon-ble
+   npm install cylon cylon-mip
+   npm install cylon cylon-ble
 
 Note: You may need to install cylon-ble using the -g option, and then run 
 each commands under sudo like this:
@@ -26,18 +26,34 @@ sudo cylon-ble-scan
 You should something like below for the results
 
 Peripheral discovered!
-  Name: 2B-785E
-  UUID: cc360e85785e
-  rssi: -80
+   Name: 2B-785E
+   UUID: cc360e85785e
+   rssi: -80
 
- ### Instructions for running Three.js
+### Instructions for running Three.js
 
-To run spashpage locally,
+#### To run spashpage locally,
+
+If you use just procedural geometries and don't load any textures, webpages should work straight from the file system, just double-click on HTML file in a file manager and it should appear working in the browser (you'll see file:///yourFile.html in the address bar).
+However, for this example on the splashpage, content was loaded from an external file.
+
+If you load models or textures from external files, due to browsers' same origin policy security restrictions, loading from a file system will fail with a security exception.
+
+There are two ways to solve this:
+
+1. Change security for local files in a browser (this allows you to access your page as
+file:///yourFile.html
+
+2. Run files from a local web server (this allows you to access your page as
+http://localhost/yourFile.html
 
 open up terminal
-cd into splashpage folder
-then enter into terminal:
-  python -m SimpleHTTPServer
+    cd into splashpage folder and enter into terminal:
+    python -m SimpleHTTPServer
+
+Please visit for further instructions:
+https://threejs.org/docs/#Manual/Getting_Started/How_to_run_things_locally
+
 
 
 
