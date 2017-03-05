@@ -12,10 +12,10 @@ The motivation behind this project was to showcase the technology of tomorrow an
 
 ## Setup:
 ### Mac OX Instructions for using Cylon.JS
-open up terminal
-    cd into file folder
+open up terminal    
+   cd into file folder
 
-   npm install cylon cylon-mip
+   npm install cylon cylon-mip     
    npm install cylon cylon-ble
 
 Note: You may need to install cylon-ble using the -g option, and then run 
@@ -25,16 +25,16 @@ sudo cylon-ble-scan
 
 You should something like below for the results
 
-Peripheral discovered!
-   Name: 2B-785E
-   UUID: cc360e85785e
+Peripheral discovered!   
+   Name: 2B-785E    
+   UUID: cc360e85785e    
    rssi: -80
 
 ### Instructions for running Three.js
 
 #### To run spashpage locally,
 
-If you use just procedural geometries and don't load any textures, webpages should work straight from the file system, just double-click on HTML file in a file manager and it should appear working in the browser (you'll see file:///yourFile.html in the address bar).
+If you use just procedural geometries and don't load any textures, webpages should work straight from the file system, just double-click on HTML file in a file manager and it should appear working in the browser (you'll see file:///yourFile.html in the address bar).   
 However, for this example on the splashpage, content was loaded from an external file.
 
 If you load models or textures from external files, due to browsers' same origin policy security restrictions, loading from a file system will fail with a security exception.
@@ -47,8 +47,8 @@ file:///yourFile.html
 2. Run files from a local web server (this allows you to access your page as
 http://localhost/yourFile.html
 
-open up terminal
-    cd into splashpage folder and enter into terminal:
+open up terminal    
+    cd into splashpage folder and enter into terminal:   
     python -m SimpleHTTPServer
 
 Please visit for further instructions:
