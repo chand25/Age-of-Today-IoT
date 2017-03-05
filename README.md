@@ -115,8 +115,8 @@ For this project, I used the following technologies:
 
 1. Add a Chrome Extension App for MIP robots using Chrome Bluetooth API
 2. Make a client-side interface through Meteor and React
-3. Group more devices and coordinate a 'Thriller Dance' or 'Purple Rain'
-4. Endless ideas. There are robots.
+3. Group more devices and coordinate a 'Thriller' dance or 'Purple Rain' dance
+4. Endless ideas. They are robots.
 
 
 
